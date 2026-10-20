@@ -1,7 +1,5 @@
-// src/dataProduk/data.ts
 import type { Product } from "../types/produk";
 
-// ✅ Ganti nama variabel menjadi `products` (pakai s)
 export const products: Product[] = [
   {
     id: 1,

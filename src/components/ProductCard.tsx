@@ -21,7 +21,6 @@ export default function ProductCard({
       <div className="card-body">
         <h3 className="card-name">{name}</h3>
         <p className="card-price">{formatRupiah(price)}</p>
-        {/* Conditional rendering: teks & warna tombol berubah */}
         <button
           className={`btn ${isAdded ? "btn-added" : "btn-add"}`}
           onClick={onToggle}
